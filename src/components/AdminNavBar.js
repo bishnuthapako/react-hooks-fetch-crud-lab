@@ -1,6 +1,10 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 
 function AdminNavBar({ onChangePage }) {
+
+
+
+
   return (
     <nav>
       <button onClick={() => onChangePage("Form")}>New Question</button>
